@@ -26,5 +26,5 @@ jobs:
             '*.zig'
           GITHUB_TOKEN: '${{ secrets.BARANASOFTWARE_TOKEN }}'
           TARGET_REPOS: |
-            baranasoftware/systems-edi:main
+            baranasoftware/systems-zig:main
       - run: echo "🍏 This job's status is ${{ job.status }}."
