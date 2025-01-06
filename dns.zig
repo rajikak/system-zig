@@ -5,3 +5,9 @@
 // https://reintech.io/blog/implementing-a-dns-server-in-go
 // https://domenicoluciani.com/2024/05/07/create-dns-resolver.html
 // https://github.com/EmilHernvall/dnsguide
+
+const std = @import("std");
+
+pub fn main() void {
+    std.debug.print("dns server in zig\n", .{});
+}
