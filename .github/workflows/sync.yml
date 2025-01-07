@@ -23,7 +23,7 @@ jobs:
             ^.github/workflows/sync-.*
             README.md
             .gitignore
-            \*.zig
+            $.zig
           GITHUB_TOKEN: '${{ secrets.BARANASOFTWARE_TOKEN }}'
           TARGET_REPOS: |
             baranasoftware/systems-zig:main
