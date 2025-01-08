@@ -5,5 +5,7 @@ Systems programming in Zig programming language.
 * [tcp-ip.zig](tcp-ip.zig) - TCP/IP stack implementation.
 * [vpn.zig](vpn.zig) - A VPN implementation.
 
+* [regex.zig](regex.zig) - Unix Regular Expression implementation.
+
 
 
